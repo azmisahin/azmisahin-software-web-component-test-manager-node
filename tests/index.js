@@ -1,18 +1,5 @@
-# test-manager
-Simple test managament tool
-
-# Install
-
-```shell
-$ npm i -g npm
-$ npm i --save test-manager
-```
-
-# Usage
-
-```js
 /// Test Manager
-var TestManager = require('test-manager')
+var TestManager = require('../src')
 
 /// Test Instance
 var t = new TestManager()
@@ -32,10 +19,3 @@ var isStringTest = function (){
   t.Test('String or Boolen?', expected , actual)
 }
 isStringTest()
-```
-
-# Test
-
-```shell
-$ npm run test
-```

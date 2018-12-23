@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/azmisahin/azmisahin-software-web-component-test-manager-node/issues"
   },
-  "homepage": "https://github.com/azmisahin/azmisahin-software-web-component-test-manager-node#readme"
+  "homepage": "https://github.com/azmisahin/azmisahin-software-web-component-test-manager-node#readme",
+  "devDependencies": {
+    "trace-manager": "*"
+  }
 }
