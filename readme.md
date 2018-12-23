@@ -5,14 +5,14 @@ Simple test managament tool
 
 ```shell
 $ npm i -g npm
-$ npm i --save test-manager
+$ npm i @azmisahin/test-manager
 ```
 
 # Usage
 
 ```js
 /// Test Manager
-var TestManager = require('test-manager')
+var TestManager = require('@azmisahin/test-manager')
 
 /// Test Instance
 var t = new TestManager()
@@ -39,3 +39,9 @@ isStringTest()
 ```shell
 $ npm run test
 ```
+
+# Pipline
+
+[![Build Status](https://dev.azure.com/azmisahin-github/azmisahin-software-web-component-test-manager-node/_apis/build/status/azmisahin.azmisahin-software-web-component-test-manager-node?branchName=master)](https://dev.azure.com/azmisahin-github/azmisahin-software-web-component-test-manager-node/_build/latest?definitionId=10?branchName=master)
+
+[![NPM](https://nodei.co/npm/@azmisahin/test-manager.png)](https://nodei.co/npm/@azmisahin/test-manager/)
