@@ -4,7 +4,8 @@
   "description": "Simple test managament tool",
   "main": "src/index.js",
   "scripts": {
-    "test": "node tests"
+    "test": "node tests",
+    "lint": "eslint src | eslint tests"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/azmisahin/azmisahin-software-web-component-test-manager-node#readme",
   "devDependencies": {
+    "eslint": "^5.11.0",
     "trace-manager": "*"
   }
 }
