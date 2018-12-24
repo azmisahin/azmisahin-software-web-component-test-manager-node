@@ -1,18 +1,18 @@
-# test-manager
-Simple test managament tool
+# test-management
+Simple test management tool
 
 # Install
 
 ```shell
 $ npm i -g npm
-$ npm i @azmisahin/test-manager
+$ npm i test-management
 ```
 
 # Usage
 
 ```js
 /// Test Manager
-var TestManager = require('@azmisahin/test-manager')
+var TestManager = require('test-management')
 
 /// Test Instance
 var t = new TestManager()
@@ -44,4 +44,4 @@ $ npm run test
 
 [![Build Status](https://dev.azure.com/azmisahin-github/azmisahin-software-web-component-test-manager-node/_apis/build/status/azmisahin.azmisahin-software-web-component-test-manager-node?branchName=master)](https://dev.azure.com/azmisahin-github/azmisahin-software-web-component-test-manager-node/_build/latest?definitionId=10?branchName=master)
 
-[![NPM](https://nodei.co/npm/@azmisahin/test-manager.png)](https://nodei.co/npm/@azmisahin/test-manager/)
+[![NPM](https://nodei.co/npm/test-management.png)](https://nodei.co/npm/@azmisahin/test-management/)
